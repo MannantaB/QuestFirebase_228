@@ -17,7 +17,7 @@ class FirebaseRepositorySiswa: RepositorySiswa{
         return try {
             collection.get().await().documents.map{ doc ->
                 Siswa(
-                    id = doc.getLong("id")?.toLong()?:0,
+                    id = doc.getLong("id")?.toLong()?:0L,
                     nama = doc.getString("nama")?:"",
                     alamat = doc.getString("alamat")?:"",
                     telpon = doc.getString("telpon")?: ""

@@ -6,9 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.myfirebase.repositori.AplikasiDataSiswa
 import com.example.myfirebase.view.EntrySiswaScreen
-import com.example.myfirebase.view.ErrorScreen
 import com.example.myfirebase.view.HomeScreen
 import com.example.myfirebase.view.route.DestinasiDetail
 import com.example.myfirebase.view.route.DestinasiEntry
